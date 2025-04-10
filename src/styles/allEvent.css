@@ -1,0 +1,147 @@
+.sectionPpalEventos {
+  min-width: 60%;
+}
+
+.listEvent {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  gap: 23px;
+  @media (min-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (min-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.contElment {
+  width: 265px;
+  height: 318px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 10px;
+  background-color: #ffffff;
+}
+
+.cardEvent {
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1), 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.noEvent {
+  width: 285px;
+}
+
+.horaLugar {
+  text-align: left;
+}
+
+.estado {
+  display: flex;
+  justify-content: space-between;
+}
+.alingicon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.buttonEditar {
+  width: 40px;
+  height: 40px;
+  background: #76b8c3;
+  border: none;
+}
+
+.titleCard {
+  color: #29344b;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.description {
+  color: #29344b;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.estadoActual {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  gap: 10px;
+  height: 20px;
+  border-radius: 100px;
+  padding: 10px 15px;
+}
+.aligButton {
+  display: flex;
+  justify-content: flex-end;
+  gap: 74px;
+}
+ul {
+  padding: 0;
+}
+
+.alingTitle {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+}
+
+.titleAllEvent {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 55px;
+  color: #283549;
+  width: 100%;
+}
+
+.alingDepto {
+  color: #29344b;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.alingdescripcionEvento {
+  width: 647px;
+  font-size: 16px;
+}
+/* filtro y busqueda */
+.aligFLitroBusqueda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  gap: 20px;
+}
+.aligPlataforma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.alignModalidad {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+.listname_invitados{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

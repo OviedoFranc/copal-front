@@ -1,0 +1,70 @@
+:root{
+    --letra: Monserrat;
+    --card-background-color: #fff;
+}
+
+.cardSocio{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    height: 318px;
+    justify-content: space-between;
+    align-items: flex-start;
+     padding: 25px 15px; 
+    color: #000;
+    background-color: #fff;
+}
+
+.cardSocio:hover{
+    color: #000;
+    transform: scale(0.98);
+}
+
+/* .cardSocio img{
+    width: 80px;
+} */
+
+/* .cardSocio h1{
+    margin: 0;
+    font-size: 20px;
+    font-family: var(--letra);
+} */
+
+/* .cardSocio p{
+    margin:0;
+    font-size: 14px;
+     font-family: var(--letra); 
+} */
+
+
+.elementSocio{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* .phone img, .address .img{
+} */
+.sectionAlineacion{
+width: 100%;
+row-gap: 5px;
+}
+
+/* NUEVOS ESTILOS */
+.alingEstado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleCardSocio{
+    font-size: 20px;
+    font-weight: bold;
+    color: #29344B;
+
+}
+.tipoSocioCard{
+    font-size: 18px;
+    font-weight: 600;
+    color: #29344B ;
+}

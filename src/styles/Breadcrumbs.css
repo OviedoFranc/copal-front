@@ -1,0 +1,30 @@
+.breadcrumbs {
+  font-family: montserrat, sans-serif;
+  padding: 10px 0px;
+  list-style: none;
+  background-color: #fafafa;
+  border-radius: 4px;
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.Link {
+  margin-left: 18.02%;
+}
+
+.breadcrumbs span {
+  margin: 0 5px;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+
+  color: #707070;
+
+  transition: color 0.3s ease;
+}
+
+.breadcrumbs a:hover {
+  color: #0056b3;
+}

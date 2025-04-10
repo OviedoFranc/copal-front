@@ -1,0 +1,187 @@
+:root {
+  --padding-interno: 30px;
+  --verdeAgua: #76b8c3;
+  --gris: #d9d9d9;
+  --colorFondo: #fafafa;
+  --widthSelectAreas: 400px;
+  --letra: "Monserrat";
+  --alturaNav: 140px;
+}
+
+.img-fondo {
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+}
+.inputName {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputObjetivo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.TextFieldObjetivos input,
+.TextFieldObjetivos {
+  height: 100px !important;
+  border: "1px solid #76B8C3" !important;
+  width: 100% !important;
+}
+
+.container_formDpto {
+  margin: auto;
+  padding: 10px 30px 30px 30px;
+  width: 700px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+.h2FormDpto {
+  font-family: var(--letra);
+  font-size: 32px;
+}
+
+.formDpto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.error {
+  margin: 0;
+  padding: 5px 0 0 5px;
+  color: #f00;
+  text-align: start;
+  font-size: 14px !important;
+  font-family: var(--letra);
+  height: 5px;
+}
+
+.input-user,
+.input-user:hover,
+.input-user:focus-visible {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--verdeAgua);
+  font-family: var(--letra);
+}
+
+.linea-divisor {
+  border-bottom: 1px solid #33333388;
+  margin: 30px 0;
+}
+
+.container-input-fecha {
+  display: flex;
+  padding: 0 calc(var(--padding-interno) + 8px);
+  justify-content: space-between;
+  font-family: var(--letra);
+  align-items: center;
+}
+
+/* .container-input-fecha input{
+	/* border-radius: 5px; 
+} */
+
+.select-categoria {
+  display: flex;
+  padding: 0 calc(var(--padding-interno) + 8px);
+  justify-content: space-between;
+  font-family: var(--letra);
+}
+
+.select-categoria select {
+  padding: 8px;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.inputSubmit[type="submit"]:hover {
+  background: radial-gradient(
+      120.83% 120.83% at 50% 50%,
+      rgba(255, 255, 255, 0.14) 10.94%,
+      rgba(255, 255, 255, 0) 65.1%
+    ),
+    #76b8c3;
+  box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+@media (width > 1800px) {
+  .container {
+    width: 936px;
+  }
+}
+
+/* XD */
+.filtros-nombres {
+  border-width: 0;
+  font-size: 14px;
+}
+
+.campoAutoridad {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.popUpPuestos {
+  width: 27%;
+  text-align: start;
+}
+
+.popUpPuestos span {
+  color: red;
+}
+
+.popUpUsuarios {
+  width: 25%;
+  text-align: start;
+}
+
+.divImgCrear {
+  height: 96px;
+  align-self: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.labelCampo {
+  color: #283549;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* alertas */
+.alertAlign{
+ display: flex; 
+ justify-content: space-between;
+}
+.alertAlign button {
+  margin: 0;
+}
+
+ button:hover {
+  /* background: radial-gradient(
+button:hover {
+  background: radial-gradient(
+      120.83% 120.83% at 50% 50%,
+      rgba(255, 255, 255, 0.14) 10.94%,
+      rgba(255, 255, 255, 0) 65.1%
+    ),
+    #76b8c3; */
+  box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.24) ;
+} 

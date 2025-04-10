@@ -1,0 +1,75 @@
+.alignState{
+    display: flex;
+    justify-content: space-between;
+        width: 100%;
+}
+.alignElement{
+    width: 100%;
+    max-width: 1200px;
+}
+h3{
+    margin: 10px 0;
+}
+.titleEvent{
+    text-align: center;
+    margin-bottom:17px ;
+}
+.aligSection{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.alignMod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+/*style={{ display: "flex",justifyContent:"flex-start",gap:"27px",width:"455px" }}*/
+.aligFecha{
+    display: flex;
+    justify-content: flex-start;
+    width: 455px ;
+    gap:27px;
+}
+
+.aligLocation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listInvitados_evento{
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-items: center;
+gap: 15px;
+}
+
+
+
+.iconCopy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#76B8C3 ;
+    cursor: pointer;
+}
+.buttonCopy{
+    background-color: transparent;
+    color:#76B8C3 ;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.buttonCopy:hover {
+  background-color: transparent; /* Anular el fondo en el estado de hover */
+  box-shadow:none /* Cambiar el color del texto en hover */
+}
+.styleSpan{
+    color: #D55453;
+}
+.listname_invitados{
+    text-transform: uppercase;
+    font-size: 16px;
+}

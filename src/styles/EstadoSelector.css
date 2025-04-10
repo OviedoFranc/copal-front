@@ -1,0 +1,22 @@
+.estado-selector {
+       display: flex;
+       gap: 10px;
+     }
+     
+     .estado-btn {   
+       font-size: 1em;
+       padding: 10px 20px;
+       border-radius: 20px;
+       border: 2px solid;
+       background-color: transparent;
+       cursor: pointer;
+       display: flex;
+       align-items: center;
+       gap: 10px;
+     }
+     
+     .estado-btn.active {
+       font-size: 1em;
+       font-weight: bold;
+     }
+     

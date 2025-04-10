@@ -1,0 +1,55 @@
+.alingTitleReserva{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.alingReserva{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.AliniearReserva{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    gap: 10px;
+    
+}
+.estadoReserva{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.alingDate{
+    display: flex;
+    align-items: self-start;
+    gap: 30px;
+}
+.botonesReserva{
+    display: flex;
+    justify-content: end;
+}
+.alingDepartamento{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.alingResponsable{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.alingObserv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+.alingDuracion{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

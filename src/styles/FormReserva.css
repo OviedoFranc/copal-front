@@ -1,0 +1,128 @@
+.main_formReserva {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+}
+
+.container_formReserva {
+  padding: 10px 30px 30px 30px;
+  width: 60%;
+}
+
+.h2_formReserva {
+  padding: 5px 0px 15px 0px;
+  color: #29344b;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.div_nombreReserva {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input_nombreReserva {
+  width: 75%;
+  /* border: 1px solid #76b8c3 !important; */
+}
+
+.div_dptoReserva {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 0px 10px 0px;
+}
+
+.label_dptoReserva {
+  color: #29344b;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.select_dptoReserva {
+  width: 250px;
+  border: 1px solid #76b8c3;
+}
+
+.div_estado_modalidad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.div_descripcion_fechas {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  height: auto;
+}
+
+.div_descripcionReserva {
+  width: 65%;
+  min-height: 100%;
+  height: 100%;
+}
+
+.input_descripcionReserva {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid #76b8c3 !important; */
+}
+
+.div_fechas {
+  display: flex;
+  flex-direction: column;
+}
+
+.div_unaFecha {
+  display: flex;
+  gap: 20px;
+}
+
+.fechaInicioReserva {
+  width: 100%;
+}
+
+.input_fecha {
+  background: none;
+  height: 38px;
+  width: 100%;
+  /* border: 1px solid #76b8c3 !important; */
+}
+
+.div_recursosReserva {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 0px 10px 0px;
+}
+
+.buttonAling_eventos {
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+.recursoReserva {
+  display: inline;
+  background-color: #fbdfa9;
+  padding: 10px;
+  list-style: none;
+}
+
+.alinearRecursosReserva {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}

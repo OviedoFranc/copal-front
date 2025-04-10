@@ -1,0 +1,44 @@
+:root {
+  --padding-interno: 30px;
+  --verdeAgua: #76b8c3;
+  --gris: #d9d9d9;
+  --colorFondo: #fafafa;
+  --widthSelectAreas: 400px;
+  --letra: "Monserrat";
+  --alturaNav: 140px;
+  --card-background-color: #fff;
+}
+
+.cardDept {
+  width: 360px;
+  height: 455px;
+  padding: 20px 20px 20px 20px;
+  background-color: var(--card-background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleCard {
+  font-size: 20px;
+  font-weight: bold;
+  color: #29344b;
+  text-align: center;
+}
+.description {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 300;
+  color: #283549;
+  padding: auto 0;
+}
+.element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.alinbutton {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}

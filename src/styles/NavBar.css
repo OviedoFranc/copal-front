@@ -1,0 +1,78 @@
+:root{
+    --alturaNav: 100px;
+    --alturaPreNav: 40px;
+    --fondoPreNav: #29344B;
+}
+.active {
+    /* Establece el fondo en azul cuando está activo */
+    color: #76B8C3;
+    /* Establece el color de texto en blanco cuando está activo */
+    /* Establece el texto en negrita cuando está activo */
+}
+.textLink {
+    color: #fff ;
+}
+
+.pre-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    position: relative;
+    height: var(--alturaPreNav);
+    background-color:var(--fondoPreNav);
+}
+
+.pre-nav .info{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: #fff;
+}
+
+.pre-nav .info a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top:0;
+    /* top: var(--alturaPreNav); */
+    z-index: 100;
+    width: 100%;
+    background-color: #fff;
+} 
+
+nav .links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav .links a{
+    /* color: #000; */
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+
+nav img{
+    width: 150px;
+}
+.ant-dropdown-link {
+    margin-top: "35px";
+    border-radius: 0;
+    background-color: "#283549";
+    padding: "20px 50px";
+    align-items: "center"; 
+    gap: "10px";
+}
+

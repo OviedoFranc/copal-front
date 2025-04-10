@@ -1,0 +1,24 @@
+.listReservas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.alignTitleReserva{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.espacioReserva{
+font-size: 20px;
+color: #29344B;
+font-weight: bold;
+}
+.titleReservasAlign{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    font-size: 37px;
+}

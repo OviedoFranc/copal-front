@@ -1,0 +1,97 @@
+:root{
+    --padding-interno: 30px;
+    --verdeAgua: #76B8C3;
+    --gris: #D9D9D9;
+    --widthSelectAreas: 400px;
+    --celeste: #A5B7DD;
+    --letra: 'Monserrat';
+    --colorBorde: #767676;
+}
+
+.select-areas{
+    padding: 0 calc(var(--padding-interno) + 8px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: var(--letra);
+}
+
+label{
+    display: flex;
+    align-items: center;
+    height: 36px;
+}
+
+.header-areas{
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    border: 1px solid #000;
+    justify-content: space-between;
+    align-items: center;
+    min-width: var(--widthSelectAreas);
+    box-sizing: border-box;
+    gap: 3px;
+    height: 36px;
+}
+
+.vista-areas{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.count-areas.area{
+    padding: 2px 6px;
+    font-size: 16px;
+    margin: auto 0 auto auto;
+    box-sizing: border-box;
+}
+
+.icon-down{
+    max-height: 20px;
+}
+
+.checkboxs{
+    border: 1px solid #000;
+    /* border-radius: 5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: var(--widthSelectAreas);
+    overflow: hidden;
+    max-height: 500px;
+    transition: max-height .5s, visibility .5s;
+    visibility: visible;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.oculto{
+    max-height: 0;
+    visibility: hidden;
+}
+
+
+
+.container-checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.area{
+    border: 1px solid var(--colorBorde);
+    padding: 1px;
+    border-radius: 5px;
+    background-color: var(--celeste);
+    color:#fff;
+    margin:0;
+    font-family: var(--letra);
+    font-size: 16px;
+}
+
+.puntos-suspensivos{
+    margin:0;
+}

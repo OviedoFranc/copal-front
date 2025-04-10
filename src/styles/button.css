@@ -1,0 +1,8 @@
+:root {
+  --verdeAgua: #76b8c3;
+  --color-text: #fff;
+}
+.buttonGen{
+    background-color: var(--verdeAgua) ;
+    color: var(--color-text);
+}

@@ -1,0 +1,65 @@
+/* Se aplica al elemento raíz y define la variable del color del footer */
+:root {
+    --colorFooter: #283549;
+    --colorAccent: #76B8C3;
+}
+
+/* Estilos del footer */
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: var(--colorFooter);
+}
+
+.derechosCopal {
+    background-color: var(--colorAccent);
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.derechosCopal p {
+    line-height: 50px;
+}
+
+.about, .contacto {
+    width: 20%;
+    height: 200px;
+    margin-left: 3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.about label, .contacto label {
+    border-bottom: 2px solid var(--colorAccent);
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.3rem;
+    color: white;
+}
+
+.contacto .contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contacto .contact-info svg {
+    width: 30px;
+    margin-right: 15px; 
+}
+
+.contacto svg path {
+    stroke: var(--colorAccent);
+}

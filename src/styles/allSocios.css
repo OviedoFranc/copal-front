@@ -1,0 +1,63 @@
+:root{
+    --colorFondo: #767676;
+    --alturaNav: 140px;
+}
+
+
+.body-allSocios{
+    /* top: var(--alturaNav); */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    width: 100%;
+    background-color: var(--colorFondo);
+    padding: 20px 0 200px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.contenedor-Busqueda-Filtro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 28px;
+    margin: 10px 0;
+}
+
+.contenedorCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:368px;
+    width: 100%;
+}
+
+
+
+.img-fondo{
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    z-index: 1;
+}
+
+
+/* estilos nuevos */
+
+.alingTitleSocio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 170px;
+}
+.containerSocios{
+    display: grid;
+    grid-template-columns: repeat(4,  1fr);
+    gap: 28px;
+    position: relative;
+    z-index: 10;
+    margin: 15px 0;
+}

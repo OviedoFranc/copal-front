@@ -1,0 +1,57 @@
+.sectionPpalDptos {
+  min-width: 65%;
+}
+
+.listDptos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  grid-row: 3rem;
+}
+.body-Depto {
+  /* top: var(--alturaNav); */
+  width: 1200px;
+  background-color: var(--colorFondo);
+  /* padding: 20px 0 200px 0; */
+}
+.sectionTitle {
+  background-color: var(--card-background-color);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titlefirst {
+  margin: 0;
+}
+
+/* aca estan los estilos de los departamentos */
+.contElemnt {
+  text-align: left;
+}
+
+.nameRol {
+  color: #d55453;
+}
+.listAutoridades {
+  padding: 0;
+}
+.obj {
+  width: 470px;
+  font-size: 16px;
+}
+.deptTitle {
+  font-size: 30px;
+  color: #29344b;
+}
+
+.alinearbody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divImgYNombreDpto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,218 @@
+:root {
+  --colorFondo: #fafafa;
+  --verdeAgua: #76b8c3;
+  --gris: #d9d9d9;
+  --letra: "Monserrat";
+  --alturaNav: 140px;
+}
+
+/* .container-perfil{
+    margin: auto;
+    padding: 40px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--colorFondo);
+}
+
+.container-img-perfil img {
+    max-width: 100%; 
+    max-height: 200px; 
+    object-fit: cover; 
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container-img-perfil{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+/* .container-img-perfil p{
+    margin: 0;
+    text-align: center;
+} */
+/* 
+.container-perfil .info-perfil{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-perfil .info-perfil .bloque-info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container-perfil .info-perfil > div > div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container-perfil .info-perfil > div > div > p{
+    text-align: left;
+    margin: 0;
+}
+
+
+/* departamentos */
+/* 
+.container-perfil .container-departamentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-perfil .container-departamentos strong{
+    text-align: left;
+    text-decoration: underline;
+}
+
+.container-perfil .container-departamentos .lista-departamentos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 164px);
+    gap: 40px;
+    padding: 0;
+}
+
+.lista-departamentos .departamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    background-color: var(--gris);
+} */
+
+/* botones */
+.container_de_botones {
+  padding: 30px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.container_de_botones button {
+  padding: 20px 50px;
+  color: #fff;
+  background-color: var(--verdeAgua);
+  border-radius: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.container_de_botones button:hover {
+  background: radial-gradient(
+      120.83% 120.83% at 50% 50%,
+      rgba(255, 255, 255, 0.14) 10.94%,
+      rgba(255, 255, 255, 0) 65.1%
+    ),
+    #76b8c3;
+  box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.24);
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1.1rem;
+  position: relative;
+  display: inline-block;
+}
+
+.bold::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  height: 1px;
+  background-color: #76b8c3;
+}
+
+.Info {
+  font-size: 1rem;
+  padding-top: 10px;
+}
+.categoriaInfo {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.categoriaInfo::after {
+  content: "";
+  position: absolute;
+  left: 3em;
+  right: 3em;
+  bottom: -5px;
+  height: 3px;
+  background-color: #76b8c3;
+}
+
+/*nuevos estilos*/
+.alinearSectionSocio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.alinearElement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.alinearImgTitulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.imgSocio {
+  width: 200px;
+  height: auto;
+}
+.etiquetaSocio {
+  display: inline;
+  background-color: #fbdfa9;
+  padding: 5px 15px;
+  list-style: none;
+}
+
+.alinearCategoria {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+.letraTitulo {
+  font-size: 20px;
+}
+
+.letraP {
+  font-size: 16px;
+}
+.alinearContactoSocio {
+  display: flex;
+  gap: 40px;
+}
+.alinearAllSecciones {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

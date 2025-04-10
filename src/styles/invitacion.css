@@ -1,0 +1,142 @@
+/* invitacion.css */
+.container {
+  display: flex;
+  margin-top: 20px;
+  width: 100vw;
+  margin: 20px 0px;
+}
+
+.rightContainer {
+  width: 30%;
+  align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.leftContainer {
+  width: 68%;
+  align: left;
+  padding-left: 50px;
+}
+
+.tittle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.fullWidthControl {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.tipoControl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+div.fullWidthControl .inputLabel {
+  flex: 2;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #29344b;
+}
+
+.inputField {
+  width: 80%;
+}
+.buttons {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container .leftContainer .buttons .sendButton {
+  background-color: #76b8c3;
+  border-radius: 0px;
+  color: white;
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.container .leftContainer .buttons .cancelButton {
+  background-color: white;
+  color: #76b8c3;
+  border: 1px solid #76b8c3;
+  border-radius: 0px;
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+/* contenedor de la derecha con la info*/
+
+.contElement {
+  display: flex;
+  flex-direction: column;
+}
+.titleCard {
+  margin: 0px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.descriptionInvitacion {
+  margin: 10px 0px;
+  margin: auto;
+}
+.alingiconInvitacion {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: start;
+}
+
+.selector {
+  background-color: #76b8c3;
+  flex: 3;
+}
+
+.selector .MuiSelect-root,
+.selector .MuiSelect-outlined.MuiSelect-outlined {
+  color: white !important;
+}
+
+.entidadContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+}
+.entidadText {
+  margin: 20px;
+  color: #29344b;
+}
+.entidadText label {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #29344b;
+}
+
+.div_loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 60vh;
+  background-color: #dddddd;
+}

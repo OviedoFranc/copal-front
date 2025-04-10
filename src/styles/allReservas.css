@@ -1,0 +1,12 @@
+/* filtro y busqueda */
+.aligFLitroBusqueda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  gap: 20px;
+}
+
+.sectionPpalReservas {
+  min-width: 60%;
+}
