@@ -13,7 +13,7 @@ import {
   buttonEliminar,
   CssTextField,
 } from "../styles/stylesComponent";
-import Modality from "../components/modality";
+import Modality from "../components/Modality"
 import { EventoFormat } from "../utils/const";
 import { FiClipboard } from "react-icons/fi";
 import { message } from "antd";

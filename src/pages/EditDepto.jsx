@@ -5,7 +5,7 @@ import { Button, TextField, Typography } from "@mui/material";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import PersonRemoveIcon from "@mui/icons-material/PersonRemove";
 import CloseIcon from "@mui/icons-material/Close";
-import NuevaAutoridad from "../components/nuevaAutoridad";
+import NuevaAutoridad from "../components/NuevaAutoridad";
 import "../styles/editDepto.css";
 import { fetchDeptoById, updateDepartment } from "../store/departmentStore";
 import useUserStore from "../store/usuariosStore";

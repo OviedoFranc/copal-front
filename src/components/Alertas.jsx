@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import "../styles/FormDepartamento.css";
-import "../styles/Alertas.css";
+import "../styles/alertas.css";
 import { buttonEditar, buttonEliminar } from "../styles/stylesComponent";
 
 export const Alertas = ({ title, msjAlerta, ruta, action }) => {

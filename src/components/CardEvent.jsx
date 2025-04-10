@@ -10,7 +10,7 @@ import {
   FiMapPin,
   FiVideo,
 } from "react-icons/fi";
-import Modality from "./modality";
+import Modality from "./Modality.jsx";
 import State from "./State";
 import { EventoFormat } from "../utils/const";
 const iconEditar = {

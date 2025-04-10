@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { departmentStore } from "../store/departmentStore";
 import PropTypes from "prop-types";
 import { sociosStore } from "../store/sociosStore";
 import { useNavigate } from "react-router-dom";

@@ -3,22 +3,11 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import "../styles/allEvent.css";
 import {
-  FiDisc,
-  FiEdit,
   FiCalendar,
   FiClock,
-  FiMapPin,
-  FiVideo,
   FiUser,
 } from "react-icons/fi";
-import Modality from "./modality";
 import State from "./State";
-import { EventoFormat } from "../utils/const";
-const iconEditar = {
-  color: "#D9D9D9",
-  width: "20px",
-  height: "20px",
-};
 const iconElement = {
   color: "#D55453",
   width: "16px",
@@ -83,15 +72,9 @@ const CardReserva = ({id, nombre, fecha, horaInicio, horaFin, estado, lugar, mod
                 </div>
               )}
               <div className="alingicon">
-                {/* <Modality estado={mod} /> */}
-                {/* <FiVideo style={iconElement} />
-                <p>{mod}</p> */}
               </div>
             </div>
             <div className="estado" style={{display:"flex", justifyContent:"center"}}>
-              {/* <button className="buttonEditar">
-                {/* <FiEdit style={iconEditar} /> 
-              </button> */}
               <div >
                 <State
                   estado={estado}
