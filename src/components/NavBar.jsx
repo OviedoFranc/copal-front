@@ -18,7 +18,7 @@ const NavBar = ({ renderLinks }) => {
       <nav>
         <div>
           <Link to="/">
-            <img src="../src/assets/logo-copal.svg"></img>
+            <img src="/src/assets/logo-copal.svg"></img>
           </Link>
         </div>
         {renderLinks && (

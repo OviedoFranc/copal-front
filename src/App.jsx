@@ -1,7 +1,7 @@
-import "./styles/App.css";
-
+import React from 'react'
+import "./styles/App.css"
 //REACT ROUTER
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom"
 
 //PAGES
 import Index from "./pages";
